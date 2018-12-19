@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.jovani</groupId>
-    <artifactId>Mercaria</artifactId>
+    <artifactId>Mercearia</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 

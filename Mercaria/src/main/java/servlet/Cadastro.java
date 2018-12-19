@@ -17,7 +17,7 @@ import org.hibernate.Transaction;
 
 /**
  *
- * @author luizcanf
+ * @author aluno
  */
 public class Cadastro extends HttpServlet {
 
@@ -46,13 +46,13 @@ public class Cadastro extends HttpServlet {
         
         
         try {
-        System.out.println("SALVANDO USUARIO");
+        System.out.println("SALVANDO CLIENTE");
         Session sessao = SessaoHibernate.nova();
         Transaction tx = sessao.beginTransaction();
         sessao.save(user);
         tx.commit();
         sessao.close();
-        System.out.println("USUARIO SALVO");
+        System.out.println("CLIENTE SALVO");
         } catch (Exception ex) {
             ex.printStackTrace();
             response.sendRedirect("erro.html");
