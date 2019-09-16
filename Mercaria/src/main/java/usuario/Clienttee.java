@@ -16,6 +16,11 @@ public class Clienttee extends Usuario {
     String endereco;
     Date nascimento;
     int rg;
+    
+    public void compraProduto(){
+        
+    }
+    
    
     
     

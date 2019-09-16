@@ -10,16 +10,21 @@ package usuario;
  * @author aluno
  */
 public class Addminn extends Usuario{
-    
-    public String cadastrarProduto(){
-        return null;
-        
-    }
       
     public String boasvindas(){
         return ("Oi adm, seja bem vindo!");
         
+    } 
+    public void CadastraProduto(){
+        
     }
+    public void AlteraProduto(){
+        
+    }
+    public void DeletaProduto(){
+        
+    }
+    
     
     
     
